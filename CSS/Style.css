@@ -1,0 +1,404 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Dancing+Script:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+.clear {
+	clear:both
+}
+
+body {
+	background:#FFF6E2
+		}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Yeseva One', cursive;
+	line-height: 50px;
+}
+
+#wrapper {
+	width: 100%;
+}
+
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+.header-main {
+	width: 100%;
+	height: 140px;
+	background:#FFF6E2;
+	padding-top: 10px;
+
+}
+
+.logo {
+	width: 10%;
+	height: 100px;
+	float:left;
+	margin: 15px 0 0 10px;
+
+}
+
+
+.menu {
+	width: 80%;
+	height: 80px;
+	float:left;
+	margin-left: 50px;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 2.5px;
+}
+
+.menu ul {
+	line-height: 130px;
+	text-align: right;
+	font-weight: 600;
+	font-size: 20px;
+	margin-right: 20px;
+	list-style: none;
+	
+}
+
+.menu ul li {
+	display: inline-block;
+	margin-right: 22px;
+}
+
+.menu ul li a  {
+	text-decoration: none;
+	color: #243972;
+}
+
+.menu ul li a:hover {
+	color: #B38B00;
+	transition-duration: .5s;
+	font-size: 23px;
+}
+
+.search {
+	width: 5%;
+	height: 30px;
+	float:left;
+	line-height: 100px;
+	margin-top:22px;
+	
+}
+
+.banner {
+	height: 500px;
+	text-align: center;
+	line-height: 330px;
+	font-size: 80px;
+	color: #fbbf0e;
+	background: url("../IMG/skynews-child-tablet-tech_46762051.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	letter-spacing: 2px;
+	font-family: 'Yeseva One', cursive;
+	padding-top:70px;
+
+}
+
+main .container {
+	height: 505px;
+	overflow: hidden;
+
+}
+
+main .container.topstory {
+	height: 505px;
+	border: 4px solid #243972;
+	border-radius: 25px;
+	overflow: hidden;
+	margin-top: 40px;
+
+}
+
+
+.main-story {
+	width: 390px;
+	height: 500px;
+	float: left;
+	box-sizing: border-box;	
+	
+
+}
+
+.main-story.text {
+	padding-top:5px;
+}
+
+.main-story h2 {
+	text-align: center;
+	color: #B38B00;
+	font-size: 24px;
+	margin-top: 5px;
+
+}
+
+.main-story p {
+	font-family: 'Mali', cursive;
+	text-align: center;
+	font-size: 17px;
+	color: #243972;
+	line-height: 26px;
+	font-weight: 400
+}
+
+
+
+.main-story a {
+
+	font-family: 'Mali', cursive;
+	font-size: 20px;
+	text-decoration: none;
+	color: #B38B00;
+}
+
+.main-story a:hover {
+	color: green;
+}
+
+.container.boxes a:hover {
+	color: green;
+}
+
+.container.clean {
+	margin-top: 40px;
+	height:60px;
+	border: none;
+	
+}
+
+main .container.boxes {
+	height: 450px;
+	border:none;
+	margin-top: 40px;
+	border-bottom: 1px solid #243972;
+
+	
+}
+
+
+.box {	
+	width: 730px;
+	height: 400px;
+	border-radius: 20px;
+	overflow: hidden;
+	float:left;
+}
+
+.box.text {
+	width: 360px;
+	border:none;
+	background: #FFF6E2;
+	float: left;
+	margin-left: 50px;
+	margin-top: 60px;
+	
+}
+
+.box.text h2 {
+	text-align: center;
+	color: #B38B00;
+	font-size: 24px;
+
+}
+
+.box.text p {
+	font-family: 'Mali', cursive;
+	text-align: center;
+	font-size: 17px;
+	color: #243972;
+	line-height: 27px;
+}
+
+
+
+.box.text a {
+
+	font-family: 'Mali', cursive;
+	font-size: 20px;
+	text-decoration: none;
+	color: #B38B00;
+}
+
+.container.boxes.crct .box.text{
+	margin-right:5%;
+}
+
+main .container.boxes.bottom {
+
+	height: 470px;
+	border:none;
+	margin-top: 40px;
+	border-radius: 0px;
+
+}
+
+main .container.boxes.bottom .page {
+	margin-left: 400px;
+	height: 25px;
+	border: 0;
+	text-align: center;
+	float:left;
+	margin-top: -40px;
+}
+
+
+main .container.boxes.bottom ul li {
+	display: block;
+	margin: 0 auto;
+}
+
+.container.boxes.bottom .container.page a {
+	text-decoration: none;
+	display: block;
+	color: #B38B00;
+	font-family: 'Yeseva One', cursive;
+	line-height: 30px;
+	transition-duration: .2s;
+
+}
+
+.page-table {
+	width: 40px;
+	height: 30px;
+	float:left;
+	text-align: center;
+}
+.container.boxes.bottom .container.page a:hover {
+	color:white;
+	background:#B38B00;
+	border: 0;
+	transition-duration: .5s;
+	
+}
+
+footer {
+	height: 170px;
+	background: #E7D097;
+
+	
+}
+
+.container.request{
+	height: 30px;
+	padding-left: 410px;
+	padding-top: 15px;
+
+}
+.rq-box {
+	width: 300px;
+	height: 20px;
+	background: white;
+	float: left;
+	border-radius: 15px;
+}
+
+.btn-box {
+	width: 70px;
+	height: 22px;
+	background: white;
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.btn-box a {
+	text-decoration: none;
+	color:#B38B00;
+	display:block;
+	transition-duration: .2s;
+	font-family: 'Yeseva One', cursive;
+	font-size: 12px;
+	
+}
+
+.btn-box a:hover {
+	background:#B38B00;
+	transition-duration: .5s;
+	color: white;
+	
+}
+
+footer h3 {
+	text-align: center;
+	color: white;
+	font-weight: 200;
+	line-height: 30px;
+	letter-spacing: 3px;
+	font-family: 'Bungee Inline', cursive;
+	padding-top: 20px;
+}
+
+.container.social {
+	width:1200px;
+	height: 30px;
+	padding-top: 20px;
+	padding-left: 390px;
+}
+
+.page-social {
+	width: 56px;
+	height: 56px;
+	float:left;
+	margin-left: 40px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	text-align: center;
+	overflow: hidden;
+	
+}
+
+.page-social img {
+	padding: 4.5px 0 0 1px;
+}
+
+.page-social a{
+	display: block;
+}
+
+.page-social.instagram {
+	padding-right: 1px;
+}
+
+.page-social.youtube {
+	padding-right: 1px;
+}
+
+.page-social:hover {
+	background: white;
+	transition-duration: .7s;
+}
+
+.footer-bottom {
+	width: 100%;
+	height: 30px;
+	background:#DCB44B;
+	text-align: center;
+	line-height: 30px;
+	font-family: 'Yeseva One', cursive;
+	color: antiquewhite;
+	font-size: 16px
+}
+
+
+
+
+
